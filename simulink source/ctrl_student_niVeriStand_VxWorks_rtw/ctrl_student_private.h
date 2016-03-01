@@ -5,7 +5,7 @@
  *
  * Model version              : 1.57
  * Simulink Coder version : 8.6 (R2014a) 27-Dec-2013
- * C source code generated on : Wed Dec 16 15:39:05 2015
+ * C source code generated on : Tue Mar 01 09:17:38 2016
  *
  * Target selection: NIVeriStand_VxWorks.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -21,12 +21,4 @@
 #ifndef __RTWTYPES_H__
 #error This file requires rtwtypes.h to be included
 #endif                                 /* __RTWTYPES_H__ */
-
-extern real_T rt_atan2d_snf(real_T u0, real_T u1);
-extern real_T rt_roundd_snf(real_T u);
-extern real_T rt_remd_snf(real_T u0, real_T u1);
-
-/* private model entry point functions */
-extern void ctrl_student_derivatives(void);
-
 #endif                                 /* RTW_HEADER_ctrl_student_private_h_ */
